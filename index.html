@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AstroShop | Modern E-Commerce</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <header>
+    <div class="navbar">
+      <div class="logo">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="9" cy="21" r="1"></circle>
+          <circle cx="20" cy="21" r="1"></circle>
+          <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+        </svg>
+        AstroShop
+      </div>
+      
+      <button class="menu-toggle">☰</button>
+      
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        
+        <div class="theme-switch-wrapper">
+          <label class="theme-switch" for="checkbox">
+            <input type="checkbox" id="checkbox" />
+            <div class="slider round"></div>
+          </label>
+        </div>
+
+        <a href="cart.html" class="cart-icon">
+          🛒
+          <span class="cart-count" id="cart-count">0</span>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>Discover Premium Products</h1>
+      <p>Upgrade your lifestyle with our highly curated selection of modern electronics, trendy clothing, and beautiful accessories shipped right to your door.</p>
+      <a href="products.html" class="btn btn-card" style="background: white; color: var(--primary-color); padding: 1rem 2rem; font-weight: bold;">Shop Now</a>
+    </section>
+
+    <section class="products-section">
+      <h2 class="section-title">Featured Products</h2>
+      <div id="featured-products" class="product-grid">
+        <!-- Products injected by script.js -->
+      </div>
+      <div class="text-center mt-2">
+        <a href="products.html" class="btn btn-outline">View All Products</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3 class="logo">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="9" cy="21" r="1"></circle>
+            <circle cx="20" cy="21" r="1"></circle>
+            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+          </svg>
+          AstroShop
+        </h3>
+        <p>Your one-stop destination for premium lifestyle products.</p>
+      </div>
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul style="display:flex; flex-direction:column; gap:0.5rem;">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Shop</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Newsletter</h3>
+        <p>Subscribe to get special offers and updates.</p>
+        <div class="flex mt-1">
+          <input type="email" class="form-control" placeholder="Your Email" style="border-radius: 6px 0 0 6px;">
+          <button class="btn btn-primary" style="border-radius: 0 6px 6px 0;">Subscribe</button>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 AstroShop. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

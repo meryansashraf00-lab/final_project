@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us | AstroShop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <header>
+    <div class="navbar">
+      <a href="index.html" class="logo">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="9" cy="21" r="1"></circle>
+          <circle cx="20" cy="21" r="1"></circle>
+          <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+        </svg>
+        AstroShop
+      </a>
+      
+      <button class="menu-toggle">☰</button>
+      
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html" style="color: var(--primary-color);">About</a>
+        <a href="contact.html">Contact</a>
+        
+        <div class="theme-switch-wrapper">
+          <label class="theme-switch" for="checkbox">
+            <input type="checkbox" id="checkbox" />
+            <div class="slider round"></div>
+          </label>
+        </div>
+
+        <a href="cart.html" class="cart-icon">
+          🛒
+          <span class="cart-count" id="cart-count">0</span>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div style="max-width: 800px; margin: 0 auto; text-align: center; padding: 3rem 0;">
+      <h1 class="mb-2">About AstroShop</h1>
+      <p style="font-size: 1.2rem; line-height: 1.8; color: var(--text-light); margin-bottom: 2rem;">
+        Welcome to AstroShop, your ultimate destination for modern lifestyle products. Founded in 2026, our mission has been to provide high-quality items wrapped in a beautiful, seamless shopping experience. We believe that e-commerce shouldn't just be about buying goods—it should be about discovery and joy.
+      </p>
+      <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80" alt="About Us" style="border-radius: 12px; margin-bottom: 2rem; box-shadow: var(--shadow);">
+      <p style="font-size: 1.1rem; line-height: 1.8; color: var(--text-light);">
+        Our values are simple: exceptional products, transparent pricing, and unparalleled customer service. We hand-select each item in our inventory to ensure it meets our rigorous standards of quality and style. Whether you're looking for the latest electronics, trendy clothing, or essential everyday accessories, AstroShop is here to deliver exactly what you need.
+      </p>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3 class="logo">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="9" cy="21" r="1"></circle>
+            <circle cx="20" cy="21" r="1"></circle>
+            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+          </svg>
+          AstroShop
+        </h3>
+        <p>Your one-stop destination for premium lifestyle products.</p>
+      </div>
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul style="display:flex; flex-direction:column; gap:0.5rem;">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Shop</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Newsletter</h3>
+        <p>Subscribe to get special offers and updates.</p>
+        <div class="flex mt-1">
+          <input type="email" class="form-control" placeholder="Your Email" style="border-radius: 6px 0 0 6px;">
+          <button class="btn btn-primary" style="border-radius: 0 6px 6px 0;">Subscribe</button>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 AstroShop. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
